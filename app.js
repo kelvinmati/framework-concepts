@@ -53,3 +53,14 @@ events();
 let dynamicYear = document.querySelector(".dynamic-year");
 let date = new Date().getFullYear();
 dynamicYear.innerHTML = date;
+// show more text
+const showMoreBtn = document.querySelector(".show-more-btn");
+const moreText = document.querySelector(".more-text");
+showMoreBtn.addEventListener("click", () => {
+  moreText.classList.toggle("toggle-more");
+  if (showMoreBtn.innerHTML === "show more") {
+    showMoreBtn.innerHTML = "show less";
+  } else {
+    showMoreBtn.innerHTML = "show more";
+  }
+});

@@ -426,3 +426,11 @@ header .container {
     font-size: 0.8rem;
   }
 }
+
+/* show more/less text */
+.more-text {
+  display: none;
+}
+.toggle-more {
+  display: block;
+}
