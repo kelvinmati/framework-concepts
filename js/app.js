@@ -53,7 +53,7 @@ events();
 let dynamicYear = document.querySelector(".dynamic-year");
 let date = new Date().getFullYear();
 dynamicYear.innerHTML = date;
-// show more text
+// show more text on home
 const showMoreBtn = document.querySelector(".show-more-btn");
 const moreText = document.querySelector(".more-text");
 showMoreBtn.addEventListener("click", () => {

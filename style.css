@@ -434,3 +434,9 @@ header .container {
 .toggle-more {
   display: block;
 }
+.more-info {
+  display: none;
+}
+.expand {
+  display: block;
+}
