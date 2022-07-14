@@ -32,7 +32,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: sans-serif;
 }
 
 .stop-scrolling {
@@ -129,7 +130,6 @@ header .container {
 }
 .products-dropdown {
   background-color: white;
-
   position: absolute;
   top: 30px;
   right: -15px;
@@ -235,7 +235,7 @@ header .container {
 }
 
 .text {
-  color: var(--lightOne);
+  /* color: var(--lightOne); */
   font-size: 1.1rem;
   margin: 1.9rem 0 2.5rem;
   max-width: 600px;
@@ -438,5 +438,11 @@ header .container {
   display: none;
 }
 .expand {
+  display: block;
+}
+.more-article {
+  display: none;
+}
+.expand-article {
   display: block;
 }

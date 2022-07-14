@@ -56,11 +56,14 @@ dynamicYear.innerHTML = date;
 // show more text on home
 const showMoreBtn = document.querySelector(".show-more-btn");
 const moreText = document.querySelector(".more-text");
+const video = document.querySelector(".video");
 showMoreBtn.addEventListener("click", () => {
   moreText.classList.toggle("toggle-more");
   if (showMoreBtn.innerHTML === "show more") {
     showMoreBtn.innerHTML = "show less";
+    video.style.display = "block";
   } else {
     showMoreBtn.innerHTML = "show more";
+    video.style.display = "none";
   }
 });
