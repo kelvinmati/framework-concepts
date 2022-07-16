@@ -64,7 +64,7 @@ a {
 
 .container {
   position: relative;
-  max-width: 81rem;
+  /* max-width: 81rem; */
   width: 100%;
   margin: 0 auto;
   padding: 0 3rem;
@@ -86,11 +86,11 @@ header .container {
   display: none;
 }
 
-.logo {
+/* .logo {
   display: flex;
   align-items: center;
   cursor: pointer;
-}
+} */
 
 .logo img {
   width: 150px;
