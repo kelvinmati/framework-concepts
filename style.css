@@ -305,6 +305,17 @@ header .container {
   z-index: 100;
   animation: appear 1s 1 both;
 }
+/* .hero {
+  height: 500px;
+  background-color: red;
+}
+.hero-img {
+  height: 500px;
+  object-fit: contain;
+}
+.title {
+  color: red;
+} */
 
 @keyframes appear {
   0% {
