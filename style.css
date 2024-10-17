@@ -448,6 +448,9 @@ header .container {
 .more-info {
   display: none;
 }
+.more-info-payments {
+  display: none;
+}
 .expand {
   display: block;
 }
