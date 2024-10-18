@@ -460,3 +460,10 @@ header .container {
 .expand-article {
   display: block;
 }
+
+.more-article2 {
+  display: none;
+}
+.expand-article2 {
+  display: block;
+}
